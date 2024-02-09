@@ -9,7 +9,7 @@ from social_media.routers.post import comment_table, post_table
 
 
 @pytest.fixture(scope="session")
-def anyio_backedn():
+def anyio_backend():
     return "asyncio"
 
 
